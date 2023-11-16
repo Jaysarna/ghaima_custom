@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include ghaima_custom *.css
+recursive-include ghaima_custom *.csv
+recursive-include ghaima_custom *.html
+recursive-include ghaima_custom *.ico
+recursive-include ghaima_custom *.js
+recursive-include ghaima_custom *.json
+recursive-include ghaima_custom *.md
+recursive-include ghaima_custom *.png
+recursive-include ghaima_custom *.py
+recursive-include ghaima_custom *.svg
+recursive-include ghaima_custom *.txt
+recursive-exclude ghaima_custom *.pyc
