@@ -29,6 +29,13 @@ var defaultToDate = frappe.datetime.get_last_day_of_last_month();
 frappe.query_reports['Customer Statement of Account'] = {
     "filters": [
         {
+            'label':"Ageing Based On",
+            'fieldname':"age_based_on",
+            'fieldtype':"Select",
+            'options': ["Posting Date","Due Date"],
+            'width': 80,
+        },
+        {
             'label':"As ON",
             'fieldname':"to_date",
             'fieldtype':"Date",
