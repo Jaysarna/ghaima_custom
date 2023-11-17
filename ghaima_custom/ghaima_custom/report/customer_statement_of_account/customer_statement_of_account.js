@@ -33,6 +33,7 @@ frappe.query_reports['Customer Statement of Account'] = {
             'fieldname':"age_based_on",
             'fieldtype':"Select",
             'options': ["Posting Date","Due Date"],
+            "default": "Posting Date",
             'width': 80,
         },
         {
