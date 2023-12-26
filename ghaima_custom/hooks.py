@@ -10,6 +10,10 @@ app_license = "MIT"
 # Includes in <head>
 # ------------------
 
+from hrms.hr.doctype.shift_type.shift_type import ShiftType
+from ghaima_custom.overriders.auto_attendance import process_auto_attendance
+ShiftType.process_auto_attendance = process_auto_attendance
+
 # include js, css files in header of desk.html
 # app_include_css = "/assets/ghaima_custom/css/ghaima_custom.css"
 # app_include_js = "/assets/ghaima_custom/js/ghaima_custom.js"
